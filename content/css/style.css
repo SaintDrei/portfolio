@@ -129,3 +129,13 @@ h2{
     height: 100%;
     
 }
+.tri-r {
+    
+   width: 0;
+   height: 0;
+   border-right: 50px solid blue;
+   border-top: 25px solid transparent;
+   border-bottom: 25px solid transparent;
+   
+    
+}
