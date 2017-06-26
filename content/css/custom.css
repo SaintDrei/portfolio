@@ -64,13 +64,14 @@ p {
 
 #about {
     background: rgb(123,210,102);
-    background: url("../img/ash.png") repeat 0 0;
-    background-attachment: fixed;  
+    background: url("../img/BG1.jpg") repeat 0 0;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #resume {
     background: rgb(153,216,101);
-    background: url("../img/sea2.png") repeat 0 0;
+    background: url("../img/ash.png") repeat 0 0;
     background-attachment: fixed;  
 }
 
@@ -82,15 +83,15 @@ p {
 
 #gallery {
     background: rgb(214,229,100);
-    background: url("../img/sea.png") repeat 0 0;
+    background: url("../img/ash.png") repeat 0 0;
     background-attachment: fixed;  
 }
 
 #contact {
     background: rgb(245,235,100);
-    background: url("../img/loyns.jpg") repeat 0 0;
+    background: url("../img/ash.png") repeat 0 0;
     background-attachment: fixed;  
-    background-size: 30em;
+    
 }
 
 #connect {
@@ -183,6 +184,8 @@ p {
     box-shadow: 0px 0px 20px 3px rgba(80,80,80,0.1);
     overflow: hidden;
     text-overflow: ellipsis;
+    -webkit-clip-path: polygon(68% 0, 94% 15%, 99% 76%, 23% 100%, 0 69%, 16% 16%);
+clip-path: polygon(68% 0, 94% 15%, 99% 76%, 23% 100%, 0 69%, 16% 16%);
 }
 
 .transparentbgw{
